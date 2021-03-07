@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         version="2.5" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <display-name> Web Application</display-name>
+  
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>Class</display-name>
+   	<servlet-name>Class</servlet-name>
+   	<servlet-class>com.Class</servlet-class>
+   </servlet>
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>Success</display-name>
+   	<servlet-name>Success</servlet-name>
+   	<servlet-class>com.Success</servlet-class>
+   </servlet>
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>Email</display-name>
+   	<servlet-name>Email</servlet-name>
+   	<servlet-class>com.Email</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+  	<servlet-name>Class</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>Success</servlet-name>
+   	<url-pattern>/Success</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>Email</servlet-name>
+   	<url-pattern>/Email</url-pattern>
+   </servlet-mapping>
+  <context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>hemanthrs137</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>1ga14cs043</param-value>
+    </context-param>
+</web-app>

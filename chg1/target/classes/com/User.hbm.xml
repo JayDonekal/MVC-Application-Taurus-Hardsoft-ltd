@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.User" table="user">
+        <id name="StudentID" type="int">
+            <column name="StudentID" />
+            <generator class="increment" />
+        </id>
+        <property name="Name" type="java.lang.String">
+            <column name="Name" />
+        </property>
+        <property name="DOB" type="java.lang.String">
+            <column name="DOB" />
+        </property>
+        <property name="Gender" type="java.lang.String">
+            <column name="Gender" />
+        </property>
+       
+        <property name="Category" type="java.lang.String">
+            <column name="Category" />
+        </property>
+        <property name="Address" type="java.lang.String">
+            <column name="Address" />
+        </property>
+        <property name="City" type="java.lang.String">
+            <column name="City" />
+        </property>
+        <property name="PinCode" type="java.lang.String">
+            <column name="PinCode" />
+        </property>
+        <property name="State" type="java.lang.String">
+            <column name="State" />
+        </property>
+        <property name="Country" type="java.lang.String">
+            <column name="Country" />
+        </property>
+        
+        
+        
+        <property name="CAddress" type="java.lang.String">
+            <column name="CAddress" />
+        </property>
+        <property name="Mobile" type="java.lang.String">
+            <column name="Mobile" />
+        </property>
+        <property name="Mail" type="java.lang.String">
+            <column name="Mail" />
+        </property>
+       <!--  <property name="Country" type="java.lang.String">
+            <column name="Country" />
+        </property> -->
+        <property name="ExamDate" type="java.lang.String">
+            <column name="ExamDate" />
+        </property>
+        <property name="Interview" type="java.lang.String">
+            <column name="Interview" />
+        </property>
+        <property name="SkypeID" type="java.lang.String">
+            <column name="SkypeID" />
+        </property>
+        <property name="Hostel" type="java.lang.String">
+            <column name="Hostel" />
+        </property>
+        <property name="NRI" type="java.lang.String">
+            <column name="NRI" />
+        </property>
+        
+        
+        
+        <property name="SSLC_OrgiName" type="java.lang.String">
+            <column name="SSLC_OrgiName" />
+        </property>
+                <property name="SSLC_Board" type="java.lang.String">
+            <column name="SSLC_Board" />
+        </property>
+                <property name="SSLC_Percentage" type="java.lang.String">
+            <column name="SSLC_Percentage" />
+        </property>
+                <property name="SSLC_YOP" type="java.lang.String">
+            <column name="SSLC_YOP" />
+        </property>
+                <property name="PUC_OrgiName" type="java.lang.String">
+            <column name="PUC_OrgiName" />
+        </property>
+                <property name="PUC_Board" type="java.lang.String">
+            <column name="PUC_Board" />
+        </property>
+                <property name="PUC_Percentage" type="java.lang.String">
+            <column name="PUC_Percentage" />
+        </property>
+                <property name="PUC_YOP" type="java.lang.String">
+            <column name="PUC_YOP" />
+        </property>
+                <property name="Grad_OrgiName" type="java.lang.String">
+            <column name="Grad_OrgiName" />
+        </property>
+                <property name="Grad_Board" type="java.lang.String">
+            <column name="Grad_Board" />
+        </property>
+                <property name="Grad_Percentage" type="java.lang.String">
+            <column name="Grad_Percentage" />
+        </property>
+                <property name="Grad_YOP" type="java.lang.String">
+            <column name="Grad_YOP" />
+        </property>
+                <property name="Other_OrgiName" type="java.lang.String">
+            <column name="Other_OrgiName" />
+        </property>
+               <property name="Other_Board" type="java.lang.String">
+            <column name="Other_Board" />
+        </property>
+        
+        
+        
+        <property name="Other_Percentage" type="java.lang.String">
+            <column name="Other_Percentage" />
+        </property>
+        <property name="Other_YOP" type="java.lang.String">
+            <column name="Other_YOP" />
+        </property>
+        <property name="NA_LastAttended" type="java.lang.String">
+            <column name="NA_LastAttended" />
+        </property>
+        <property name="Experience" type="java.lang.String">
+            <column name="Experience" />
+        </property>
+        <property name="Orgi1" type="java.lang.String">
+            <column name="Orgi1" />
+        </property>
+        <property name="Designation1" type="java.lang.String">
+            <column name="Designation1" />
+        </property>
+        <property name="POS1" type="java.lang.String">
+            <column name="POS1" />
+        </property>
+        
+        
+          <property name="Orgi2" type="java.lang.String">
+            <column name="Orgi2" />
+        </property>
+        <property name="Designation2" type="java.lang.String">
+            <column name="Designation2" />
+        </property>
+        <property name="POS2" type="java.lang.String">
+            <column name="POS2" />
+        </property>
+          <property name="Orgi3" type="java.lang.String">
+            <column name="Orgi3" />
+        </property>
+        <property name="Designation3" type="java.lang.String">
+            <column name="Designation3" />
+        </property>
+        <property name="POS3" type="java.lang.String">
+            <column name="POS3" />
+        </property>
+        
+        
+        <property name="Source" type="java.lang.String">
+            <column name="Source" />
+        </property>
+        <property name="Mode" type="java.lang.String">
+            <column name="Mode" />
+        </property>
+        <property name="DDNo" type="java.lang.String">
+            <column name="DDNo" />
+        </property>
+        <property name="BankBranch" type="java.lang.String">
+            <column name="BankBranch" />
+        </property>
+        <property name="DDIssueDate" type="java.lang.String">
+            <column name="DDIssueDate" />
+        </property>
+        
+        
+       <property name="DDAmount" type="java.lang.String">
+            <column name="DDAmount" />
+        </property>
+         <property name="Declaration" type="java.lang.String">
+            <column name="Declaration" />
+        </property>
+        <property name="Photo" type="java.lang.String">
+            <column name="Photo" />
+        </property>
+         
+        <property name="Random" type="java.lang.String">
+            <column name="Random" />
+        </property>
+         
+ 		<!-- <property name="Unique" type="java.lang.String">
+            <column name="Unique" />
+        </property> -->
+    
+        
+   
+   
+   
+    </class>
+</hibernate-mapping>
